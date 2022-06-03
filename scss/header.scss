@@ -1,0 +1,79 @@
+header{
+    width: 100%;
+    background-image: url('../images/AdobeStock_192821860\ 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 19px 0 150px 0;
+}
+.main-container{
+    padding: 0 100px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 136px;
+}
+.logo-container{
+    background-image: url('../images/logo\ \(Traced\).png');
+    background-size: contain;
+    display: block;
+    width: 139px;
+    height: 35px;
+}
+.nav-items-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items-container span{
+    color: $main-color_2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-right: 40px;
+}
+.icons-container svg{
+    margin-right: 35px;
+}
+
+.header-article{}
+.header-title{
+    color: $main-color_2;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+}
+.header-text-container{
+    display: flex;
+    justify-content: flex-start;
+    padding: 32px 0 72px 0;
+}
+.header-text_article{
+    color: $main-color_2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    width: 295px;
+}
+.header-btn{
+    border: 2px solid $main-color_2;
+    border-radius: 15px;
+    background-color: rgba(28,28,28,0);
+    color: $main-color_2;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 13px 90px;
+    transition: all 300ms linear;
+}
+.header-btn:hover{
+    background-color: $main-color_2;
+    color: $main-color_1;
+    transition: all 300ms linear;
+}

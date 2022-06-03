@@ -1,0 +1,90 @@
+.questions-section{
+    padding: 120px 0 200px 0;
+    background-color: $background;
+}
+.questions-list{}
+.questions-item__first-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // border-bottom: 1px solid $secondary-color_4;
+    padding: 24px;  
+}
+.questions-item{
+    border-bottom: 1px solid $secondary-color_4;
+}
+.question-item__title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: $main-color_1;
+}
+.question-item__icon{
+    background-image: url('../images/usefull/Vector.png');
+    background-size: cover;
+    cursor: pointer;
+    display: block;
+    width: 11px;
+    height: 11px;
+}
+.questions-item__icon-click{
+    background-image: url('../images/usefull/Vector\ \(1\).png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 25px;
+}
+
+.question-item__popup{
+    display: block;
+    background: $secondary-color_5;
+    box-shadow: 0px 0px 18px rgba(68, 68, 68, 0.09);
+    padding: 24px 46px 24px 39px;
+}
+.popup-title-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.popup__icon{
+    background-image: url('../images/usefull/Vector\ \(1\).png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    width: 11px;
+    height: 11px;
+}
+.popup__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: $main-color_3;
+}
+.popup__text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    color: $main-color_1;
+    margin-bottom: 8px;
+}
+
+.questions-popup-wrapper{
+    display: none;
+}
+._open{
+    display: block;
+    margin-top: -60px;
+    background: $secondary-color_5;
+    box-shadow: 0px 0px 18px rgba(68, 68, 68, 0.09);
+    padding: 50px 46px 24px 39px;
+}
+._open-title{
+    color: $main-color_3;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 14px;
+}
