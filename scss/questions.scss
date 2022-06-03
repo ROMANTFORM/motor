@@ -21,7 +21,7 @@
     color: $main-color_1;
 }
 .question-item__icon{
-    background-image: url('../images/usefull/Vector.png');
+    background-image: url('./images/usefull/Vector.png');
     background-size: cover;
     cursor: pointer;
     display: block;
@@ -29,7 +29,7 @@
     height: 11px;
 }
 .questions-item__icon-click{
-    background-image: url('../images/usefull/Vector\ \(1\).png');
+    background-image: url('./images/usefull/Vector\ \(1\).png');
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 25px;
@@ -48,7 +48,7 @@
     margin-bottom: 24px;
 }
 .popup__icon{
-    background-image: url('../images/usefull/Vector\ \(1\).png');
+    background-image: url('./images/usefull/Vector\ \(1\).png');
     background-size: contain;
     background-repeat: no-repeat;
     display: block;

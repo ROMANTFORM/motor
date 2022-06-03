@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Nunito:wght@400;600;800&display=swap");
 header {
   width: 100%;
-  background-image: url("../images/AdobeStock_192821860 1.png");
+  background-image: url("./images/AdobeStock_192821860 1.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 19px 0 150px 0;
@@ -19,7 +19,7 @@ header {
 }
 
 .logo-container {
-  background-image: url("../images/logo (Traced).png");
+  background-image: url("./images/logo (Traced).png");
   background-size: contain;
   display: block;
   width: 139px;
@@ -489,7 +489,7 @@ span.selectOption:hover {
 }
 
 .question-item__icon {
-  background-image: url("../images/usefull/Vector.png");
+  background-image: url("./images/usefull/Vector.png");
   background-size: cover;
   cursor: pointer;
   display: block;
@@ -498,7 +498,7 @@ span.selectOption:hover {
 }
 
 .questions-item__icon-click {
-  background-image: url("../images/usefull/Vector (1).png");
+  background-image: url("./images/usefull/Vector (1).png");
   background-size: contain;
   background-repeat: no-repeat;
   margin-right: 25px;
@@ -519,7 +519,7 @@ span.selectOption:hover {
 }
 
 .popup__icon {
-  background-image: url("../images/usefull/Vector (1).png");
+  background-image: url("./images/usefull/Vector (1).png");
   background-size: contain;
   background-repeat: no-repeat;
   display: block;
