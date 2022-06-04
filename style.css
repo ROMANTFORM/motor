@@ -322,7 +322,7 @@ span.selectOption:hover {
 
 .filter-checkbox:checked + label::before {
   border-color: #DF4E3C;
-  background-image: url("../images/usefull/Shape.png");
+  background-image: url("./images/usefull/Shape.png");
 }
 
 .sort-container__control {
@@ -339,7 +339,7 @@ span.selectOption:hover {
   display: block;
   width: 11px;
   height: 13px;
-  background-image: url("../images/usefull/Group.png");
+  background-image: url("./images/usefull/Group.png");
   background-size: contain;
   background-repeat: no-repeat;
   cursor: pointer;
